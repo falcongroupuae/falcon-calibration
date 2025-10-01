@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import { Award, TrendingUp } from "lucide-react";
+import { Award } from "lucide-react";
 
 const BrandsSection = () => {
   const brands = [
@@ -97,53 +97,6 @@ const BrandsSection = () => {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Stats Bar */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-20">
-          <div className="text-center">
-            <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-red-500 to-red-600 mb-4 shadow-lg">
-              <Award className="w-8 h-8 text-white" />
-            </div>
-            <div className="text-4xl font-bold text-gray-900 mb-2">20+</div>
-            <div className="text-gray-600 font-medium">Trusted Partners</div>
-          </div>
-
-          <div className="text-center">
-            <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-500 to-blue-600 mb-4 shadow-lg">
-              <TrendingUp className="w-8 h-8 text-white" />
-            </div>
-            <div className="text-4xl font-bold text-gray-900 mb-2">100%</div>
-            <div className="text-gray-600 font-medium">Quality Assured</div>
-          </div>
-
-          <div className="text-center">
-            <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-500 to-blue-600 mb-4 shadow-lg">
-              <TrendingUp className="w-8 h-8 text-white" />
-            </div>
-            <div className="text-4xl font-bold text-gray-900 mb-2">100%</div>
-            <div className="text-gray-600 font-medium">Quality Assured</div>
-          </div>
-
-          <div className="text-center">
-            <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-green-500 to-green-600 mb-4 shadow-lg">
-              <svg
-                className="w-8 h-8 text-white"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-            </div>
-            <div className="text-4xl font-bold text-gray-900 mb-2">ISO</div>
-            <div className="text-gray-600 font-medium">Certified Standards</div>
-          </div>
         </div>
       </div>
     </section>

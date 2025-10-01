@@ -1,6 +1,7 @@
 import Header from "@/components/common/Header";
 import "./globals.css";
 import SmoothScroll from "@/components/ui/SmoothScroll";
+import Footer from "@/components/common/Footer";
 
 export const metadata = {
   title: "Falcon Calibration",
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
         <SmoothScroll>
           <Header />
           {children}
+          {/* <Footer /> */}
         </SmoothScroll>
       </body>
     </html>
