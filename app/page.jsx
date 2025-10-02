@@ -3,6 +3,7 @@ import AccreditationSection from "@/components/home/AccreditationSection";
 import BrandsSection from "@/components/home/BrandsSection";
 import CalibrationServicesSection from "@/components/home/CalibrationServicesSection";
 import CarouselSection from "@/components/home/CarouselSection";
+import ContactSection from "@/components/home/ContactSection";
 import HeroSection from "@/components/home/HeroSection";
 import IndustriesSection from "@/components/home/IndustriesSection";
 import ServicesGridSection from "@/components/home/ServicesGridSection";
@@ -19,9 +20,10 @@ export default function Home() {
       <StatsSection />
       <ServicesGridSection />
       <AccreditationSection/>
-      {/* <IndustriesSection /> */}
+      <IndustriesSection />
+      <WhyTrustFalcon />
       <BrandsSection />
-      {/* <WhyTrustFalcon /> */}
+      <ContactSection/>
     </>
   );
 }
